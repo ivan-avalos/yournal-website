@@ -34,6 +34,10 @@ body {
 				 'Segoe UI Emoji' !important;
 }
 
+p, p.lead {
+	font-weight: lighter !important;
+}
+
 .navbar {
     margin: 6px;
 }
