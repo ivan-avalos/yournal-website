@@ -2,7 +2,7 @@
     font-family: 'Agane';
     src: url('../fonts/agane_45_light-webfont.woff2') format('woff2'),
          url('../fonts/agane_45_light-webfont.woff') format('woff');
-    font-weight: lighter;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -10,7 +10,7 @@
     font-family: 'Agane';
     src: url('../fonts/agane_55_roman-webfont.woff2') format('woff2'),
          url('../fonts/agane_55_roman-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Agane';
     src: url('../fonts/agane_65_bold-webfont.woff2') format('woff2'),
          url('../fonts/agane_65_bold-webfont.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -32,6 +32,14 @@ body {
 				 Arial, sans-serif,
 				 'Apple Color Emoji',
 				 'Segoe UI Emoji' !important;
+}
+
+p {
+	font-weight: 100 !important;
+}
+
+.btn {
+	font-weight: 100 !important;
 }
 
 .navbar {
